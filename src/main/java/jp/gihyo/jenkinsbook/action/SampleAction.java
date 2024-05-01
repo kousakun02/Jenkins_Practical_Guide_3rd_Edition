@@ -68,7 +68,7 @@ public class SampleAction {
         Calendar calendar = Calendar.getInstance();
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         if (hour < 12 ) {
-            dto.steMessage("good morning");
+            dto.setMessage("Good morning");
         } else {
             dto.setMessage("Good afternoon");
         }
